@@ -821,39 +821,39 @@
         "type": "Social Personas",
         "name": "New Social Personas",
         "project": "Social-Trading",
-        "id": "f9520ca0-4c30-4906-bd63-25fec8063764",
+        "id": "f05fbd7e-dec6-40c3-93d2-f1c5f52b7b38",
         "config": "{}",
         "socialPersonas": [
             {
                 "type": "Social Persona",
                 "name": "Social Persona #1",
                 "project": "Social-Trading",
-                "id": "c5dfd126-e842-4f71-875c-264b8f24a551",
-                "config": "{\n    \"handle\": \"Gonzalo\",\n    \"codeName\": \"Social-Persona-1\"\n}",
+                "id": "cf50b991-42d9-4b8f-8119-183ded71513d",
+                "config": "{\n    \"handle\": \"NewGonzalo\",\n    \"codeName\": \"Social-Persona-1\"\n}",
                 "signingAccount": {
                     "type": "Signing Account",
                     "name": "New Signing Account",
                     "project": "Governance",
-                    "id": "958ced19-62cd-4c43-9722-5f97dccaa1d7",
-                    "config": "{\"codeName\":\"Social-Persona-1\",\"signature\":{\"message\":\"gonzalocatrina\",\"messageHash\":\"0x0e3fa6cf7ffc35362d6483f2f64d95a7fdd64204135dcf37eee36df9fdcc8312\",\"v\":\"0x1b\",\"r\":\"0x60adae45e40e210afbca2fb4e43be9095d6075d51401a681abf54201b2dc98e0\",\"s\":\"0x1096b729b463715aec4424888ef7b3184fab3db128d5d10cd8874ded97fe6693\",\"signature\":\"0x60adae45e40e210afbca2fb4e43be9095d6075d51401a681abf54201b2dc98e01096b729b463715aec4424888ef7b3184fab3db128d5d10cd8874ded97fe66931b\"}}"
+                    "id": "dbdb8fab-97e6-449f-9695-9540fb916906",
+                    "config": "{\"codeName\":\"Social-Persona-1\",\"signature\":{\"message\":\"gonzalocatrina\",\"messageHash\":\"0x0e3fa6cf7ffc35362d6483f2f64d95a7fdd64204135dcf37eee36df9fdcc8312\",\"v\":\"0x1c\",\"r\":\"0xb7fcd91f9e1c95155d60d9785080a6f6b13e8f75227cf1f99b70e1a402bde414\",\"s\":\"0x11778433641ba4ec527289f17bc67ffb792918711b67131f5705a4ebd81db90c\",\"signature\":\"0xb7fcd91f9e1c95155d60d9785080a6f6b13e8f75227cf1f99b70e1a402bde41411778433641ba4ec527289f17bc67ffb792918711b67131f5705a4ebd81db90c1c\"}}"
                 },
                 "availableStorage": {
                     "type": "Available Storage",
                     "name": "New Available Storage",
                     "project": "Open-Storage",
-                    "id": "a5139ffd-d389-454b-bbde-65727c57ec49",
+                    "id": "dcfc3426-c193-4b7b-90ec-acce0b1702ee",
                     "storageContainerReferences": [
                         {
                             "type": "Storage Container Reference",
                             "name": "New Storage Container Reference",
                             "project": "Open-Storage",
-                            "id": "b68b1f59-9479-4785-aab4-e360ed72bb1d",
+                            "id": "42eca985-ab5b-4a0a-ac2b-d0b2e1ba58c8",
                             "config": "{}",
                             "savedPayload": {
                                 "referenceParent": {
                                     "type": "Github Storage Container",
                                     "name": "New Github Storage Container",
-                                    "id": "2f7671de-11df-41bb-8915-ce553c5ea4b2"
+                                    "id": "a4d2194c-314b-461a-88ee-ab5c67a76a0c"
                                 }
                             }
                         }
@@ -867,21 +867,21 @@
         "type": "User Storage",
         "name": "New User Storage",
         "project": "Open-Storage",
-        "id": "d04afe2a-e66a-406b-be86-db625b1294d8",
+        "id": "bcedf31f-bf5d-4bdd-867f-54adc7099e57",
         "config": "{}",
         "githubStorage": {
             "type": "Github Storage",
             "name": "New Github Storage",
             "project": "Open-Storage",
-            "id": "e5cd7271-76ac-4fcb-8f3e-15e4121f3470",
+            "id": "f8f83b1e-b8d6-4e79-9b16-15595a57c1f0",
             "config": "{}",
             "githubStorageContainers": [
                 {
                     "type": "Github Storage Container",
                     "name": "New Github Storage Container",
                     "project": "Open-Storage",
-                    "id": "2f7671de-11df-41bb-8915-ce553c5ea4b2",
-                    "config": "{\"codeName\":\"Gonzalo-Social-Persona-Data\",\"githubUserName\":\"gonzalocatrina\",\"repositoryName\":\"Gonzalo-Social-Persona-Data\"}"
+                    "id": "a4d2194c-314b-461a-88ee-ab5c67a76a0c",
+                    "config": "{\"codeName\":\"NewGonzalo-Social-Persona-Data\",\"githubUserName\":\"gonzalocatrina\",\"repositoryName\":\"NewGonzalo-Social-Persona-Data\"}"
                 }
             ]
         }
