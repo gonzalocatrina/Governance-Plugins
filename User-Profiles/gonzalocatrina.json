@@ -660,20 +660,6 @@
                             "isRunning": false
                         }
                     }
-                },
-                {
-                    "type": "Social Trading Desktop App",
-                    "name": "Social Trading Desktop App #2",
-                    "project": "User-Apps",
-                    "id": "003b111d-badc-461d-8dbb-285ef1305d47",
-                    "config": "{\n    \"codeName\": \"Social-Trading-Desktop-App-2\"\n}",
-                    "signingAccount": {
-                        "type": "Signing Account",
-                        "name": "New Signing Account",
-                        "project": "Governance",
-                        "id": "d2bcb16f-545f-4498-aca3-f80170c08a5d",
-                        "config": "{\"codeName\":\"Social-Trading-Desktop-App-2\",\"signature\":{\"message\":\"gonzalocatrina\",\"messageHash\":\"0x0e3fa6cf7ffc35362d6483f2f64d95a7fdd64204135dcf37eee36df9fdcc8312\",\"v\":\"0x1c\",\"r\":\"0xd969f40b3e223fd6210005d303ea08e318ddfffe1d2447c84bac2b258a086702\",\"s\":\"0x797092cea08bf433715a17b74cab7e7db82696e160f2830422396342a06dc4fb\",\"signature\":\"0xd969f40b3e223fd6210005d303ea08e318ddfffe1d2447c84bac2b258a086702797092cea08bf433715a17b74cab7e7db82696e160f2830422396342a06dc4fb1c\"}}"
-                    }
                 }
             ],
             "algoTradesPlatform": [],
@@ -829,6 +815,75 @@
         },
         "uiObject": {
             "isRunning": false
+        }
+    },
+    "socialPersonas": {
+        "type": "Social Personas",
+        "name": "New Social Personas",
+        "project": "Social-Trading",
+        "id": "f9520ca0-4c30-4906-bd63-25fec8063764",
+        "config": "{}",
+        "socialPersonas": [
+            {
+                "type": "Social Persona",
+                "name": "Social Persona #1",
+                "project": "Social-Trading",
+                "id": "c5dfd126-e842-4f71-875c-264b8f24a551",
+                "config": "{\n    \"handle\": \"Gonzalo\",\n    \"codeName\": \"Social-Persona-1\"\n}",
+                "signingAccount": {
+                    "type": "Signing Account",
+                    "name": "New Signing Account",
+                    "project": "Governance",
+                    "id": "958ced19-62cd-4c43-9722-5f97dccaa1d7",
+                    "config": "{\"codeName\":\"Social-Persona-1\",\"signature\":{\"message\":\"gonzalocatrina\",\"messageHash\":\"0x0e3fa6cf7ffc35362d6483f2f64d95a7fdd64204135dcf37eee36df9fdcc8312\",\"v\":\"0x1b\",\"r\":\"0x60adae45e40e210afbca2fb4e43be9095d6075d51401a681abf54201b2dc98e0\",\"s\":\"0x1096b729b463715aec4424888ef7b3184fab3db128d5d10cd8874ded97fe6693\",\"signature\":\"0x60adae45e40e210afbca2fb4e43be9095d6075d51401a681abf54201b2dc98e01096b729b463715aec4424888ef7b3184fab3db128d5d10cd8874ded97fe66931b\"}}"
+                },
+                "availableStorage": {
+                    "type": "Available Storage",
+                    "name": "New Available Storage",
+                    "project": "Open-Storage",
+                    "id": "a5139ffd-d389-454b-bbde-65727c57ec49",
+                    "storageContainerReferences": [
+                        {
+                            "type": "Storage Container Reference",
+                            "name": "New Storage Container Reference",
+                            "project": "Open-Storage",
+                            "id": "b68b1f59-9479-4785-aab4-e360ed72bb1d",
+                            "config": "{}",
+                            "savedPayload": {
+                                "referenceParent": {
+                                    "type": "Github Storage Container",
+                                    "name": "New Github Storage Container",
+                                    "id": "2f7671de-11df-41bb-8915-ce553c5ea4b2"
+                                }
+                            }
+                        }
+                    ],
+                    "config": "{}"
+                }
+            }
+        ]
+    },
+    "userStorage": {
+        "type": "User Storage",
+        "name": "New User Storage",
+        "project": "Open-Storage",
+        "id": "d04afe2a-e66a-406b-be86-db625b1294d8",
+        "config": "{}",
+        "githubStorage": {
+            "type": "Github Storage",
+            "name": "New Github Storage",
+            "project": "Open-Storage",
+            "id": "e5cd7271-76ac-4fcb-8f3e-15e4121f3470",
+            "config": "{}",
+            "githubStorageContainers": [
+                {
+                    "type": "Github Storage Container",
+                    "name": "New Github Storage Container",
+                    "project": "Open-Storage",
+                    "id": "2f7671de-11df-41bb-8915-ce553c5ea4b2",
+                    "config": "{\"codeName\":\"Gonzalo-Social-Persona-Data\",\"githubUserName\":\"gonzalocatrina\",\"repositoryName\":\"Gonzalo-Social-Persona-Data\"}"
+                }
+            ]
         }
     }
 }
